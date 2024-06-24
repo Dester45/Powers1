@@ -29,7 +29,7 @@ async function getAIResponse(input, userId, messageID) {
         { url: 'https://ai-chat-gpt-4-lite.onrender.com/api/hercai', params: { question: input } }
     ];
 
-    let response = "≛𝙃𝙐𝙉𝙏𝙀𝙍'𝙎 𝙇𝙄𝙉𝙀≛\n(⁠･ั⁠ω⁠･ั⁠).....? ";
+    let response = "𝗭𝗘𝗣𝗛𝗬𝗥»𝗕𝗢𝗧[🌐] \n(⁠･ั⁠ω⁠･ั⁠).....? ";
     let currentIndex = 0;
 
     for (let i = 0; i < services.length; i++) {
@@ -75,7 +75,7 @@ module.exports = {
             const { response, messageID } = await getAIResponse(input, event.senderID, message.messageID);
             // Construct message with special fonts
             const formattedResponse = `
-            ≛𝙇𝙄𝙉𝙀𝙎≛   :\n▬▭▬▬▭▬▬▭▬▬▭▬\n${response} ☪️\n▬▭▬▬▭▬▬▭▬▬▭▬
+            𝗭𝗘𝗣𝗛𝗬𝗥   :\n▬▭▬▬▭▬▬▭▬▬▭▬\n${response} ☪️\n▬▭▬▬▭▬▬▭▬▬▭▬
 `;
             message.reply(formattedResponse, messageID);
         }
