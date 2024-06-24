@@ -95,11 +95,11 @@ handlerEvents.onlyAdminBox=This group is currently enabled only group administra
 handlerEvents.onlyAdminBot= ⛔| Currently 𝗢𝗡𝗟𝗬 bot's 𝗔𝗗𝗠𝗜𝗡 \n\n can use 𝗕𝗢𝗧 𝗦𝗢𝗥𝗥𝗬 [🛂]
 handlerEvents.commandNotFound= 📌|𝗖𝗢𝗠𝗠𝗔𝗡𝗗 [%1] 𝗗𝗢𝗘𝗦 𝗡𝗢𝗧 exist, 𝗧𝗬𝗣𝗘 %2»help[📑] to see all available 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝘀
 handlerEvents.commandNotFound2=🛂|𝗕𝗢𝗧 𝗦𝗢𝗨𝗥𝗖𝗘 \n-------------------------\n 𝗠𝗔𝗗𝗔𝗥𝗔»𝗙𝗕 𝗟𝗜𝗡𝗞: https://www.facebook.com/profile.php?id=100089690164634&mibextid=JRoKGi\n\n 𝗣𝗛𝗔𝗥𝗢𝗨𝗞»𝗙𝗕 𝗟𝗜𝗡𝗞[🌐] :https://www.facebook.com/pharouk.sidibe.1?mibextid=JRoKGi \n-----------------------\n 𝗕𝗢𝗧»𝗣𝗥𝗜𝗩É 
-handlerEvents.commandSyntaxError=The command you are using is wrong syntax, please type %1help %2 to see the details of how to use this command
+handlerEvents.commandSyntaxError= 📍|𝗧𝗛𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 you are using is 𝗪𝗥𝗢𝗡𝗚 𝗦𝗬𝗡𝗧𝗔𝗫 [⚠️]\n\n, please 𝗧𝗬𝗣𝗘 %1»help[🏷] %2 to see the details of how to use this command
 handlerEvents.onlyAdmin=❌ | Only group administrators can use the command "%1"
 handlerEvents.onlyAdminToUseOnReply=❌ | Only group administrators can use the reply function of the command "%1"
 handlerEvents.onlyAdminToUseOnReaction=❌ | Only group administrators can use the reaction function of the command "%1"
-handlerEvents.onlyAdminBot2=❌ | Only bot's admin can use the command "%1"
+handlerEvents.onlyAdminBot2=🔴| 𝗢𝗡𝗟𝗬 bot's 𝗔𝗗𝗠𝗜𝗡 \n-------------------\n can use the command [%1] 
 handlerEvents.onlyAdminBot2ToUseOnReply=❌ | Only bot's admin can use the reply function of the command "%1"
 handlerEvents.onlyAdminBot2ToUseOnReaction=❌ | Only bot's admin can use the reaction function of the command "%1"
 handlerEvents.waitingForCommand=⏱ You are in the waiting time to use this command, please come back after %1s
