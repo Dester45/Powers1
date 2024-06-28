@@ -46,7 +46,7 @@ module.exports = {
 			confirmThisThread: "Please react to this message to confirm change prefix in your box chat",
 			successGlobal: "Changed prefix of system bot to: %1",
 			successThisThread: "Changed prefix in your box chat to: %1",
-			myPrefix: " \n✦] \n━━━━━━━━━━━\n➫[🛄] 𝗕𝗢𝗧 𝗡𝗔𝗠𝗘 :𝗫-𝗪𝗜𝗡𝗚 𝗦𝗧𝗔𝗥𝗙𝗜𝗚𝗛𝗘𝗥v2\n➫[🌐] 𝗣𝗥𝗘𝗙𝗜𝗫 : 【 %1 】"
+			myPrefix: " \n\n━━━━━━━━━━━\n➫[🛄] 𝗕𝗢𝗧 𝗡𝗔𝗠𝗘 :𝗫-𝗪𝗜𝗡𝗚 𝗦𝗧𝗔𝗥𝗙𝗜𝗚𝗛𝗘𝗥v2\n➫[🌐] 𝗣𝗥𝗘𝗙𝗜𝗫 : 【 %1 】"
 		}
 	},
 
@@ -99,8 +99,8 @@ module.exports = {
 	  const data = await usersData.get(event.senderID);
     const name = data.name;
 	  const xyrene = {
-	    body: `🔱${name}🔱` + getLang("myPrefix", global.GoatBot.config.prefix, utils.getPrefix(event.threadID)),
-	    attachment: await global.utils.getStreamFromURL("https://i.ibb.co/pXMKSqN/image.jpg")
+	    body: `𝗕𝗢𝗦𝗦 :\n\n🔱${name}🔱` + getLang("myPrefix", global.GoatBot.config.prefix, utils.getPrefix(event.threadID)),
+	    attachment: await global.utils.getStreamFromURL("https://i.ibb.co/0cGHNjz/image.jpg")
 				};
 		if (event.body && event.body.toLowerCase() === "prefix")
 			return () => {
