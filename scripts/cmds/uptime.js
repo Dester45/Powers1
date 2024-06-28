@@ -1,4 +1,4 @@
-✓cmd install uptime.js module.exports = {
+module.exports = {
   config: {
     name: "uptime",
 aliases: ["upt"],
@@ -28,9 +28,9 @@ aliases: ["upt"],
       const minutes = Math.floor((uptime % 3600) / 60);
       const seconds = Math.floor(uptime % 60);
 
-      const uptimeString = `${hours}\n 𝗛𝗢𝗨𝗥𝗦 ${minutes}\n 𝗠𝗜𝗡𝗨𝗧𝗘𝗦 ${seconds}\n 𝗦𝗘𝗖𝗢𝗡𝗗𝗘...`;
+      const uptimeString = `\n${hours} 𝗛𝗢𝗨𝗥𝗦 \n${minutes}𝗠𝗜𝗡𝗨𝗧𝗘𝗦 \n${seconds}𝗦𝗘𝗖𝗢𝗡𝗗𝗘`;
 
-      api.sendMessage(`𝗫-𝗪𝗜𝗡𝗚 𝗨𝗣𝗧𝗜𝗠𝗘\n---------------------\n ${uptimeString}\n-----------------------\n 𝗫-𝗪𝗜𝗡𝗚 𝗦𝗧𝗔𝗥𝗙𝗜𝗚𝗛𝗘𝗥v2`, event.threadID);
+      api.sendMessage(`𝗫-𝗪𝗜𝗡𝗚 𝗨𝗣𝗧𝗜𝗠𝗘»[🛄]\n-------------------------------\n ${uptimeString}\n--------------------------------\n 𝗫-𝗪𝗜𝗡𝗚 𝗦𝗧𝗔𝗥𝗙𝗜𝗚𝗛𝗘𝗥v2`, event.threadID);
     } catch (error) {
       console.error(error);
       api.sendMessage("An error occurred while retrieving data.", event.threadID);
