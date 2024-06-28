@@ -34,7 +34,7 @@ module.exports = {
 			const categories = {};
 			let msg = "";
 
-			msg += ` 𝗭𝗘𝗣𝗛𝗬𝗥»𝗕𝗢𝗧\n━━━━━━━━━━━\n➫[🛄]𝗔𝗗𝗠𝗜𝗡:𝗣𝗛𝗔𝗥𝗢𝗨𝗞 𝗮𝗻𝗱 𝗠𝗔𝗗𝗔𝗥𝗔 \n➫[🌐] 𝗣𝗥𝗘𝗙𝗜𝗫 : 【 ${prefix} 】\n━━━━━━━━━━━\n`;
+			msg += ` 𝗫-𝗪𝗜𝗡𝗚 𝗦𝗧𝗔𝗥𝗙𝗜𝗚𝗛𝗘𝗥v2\n━━━━━━━━━━━\n➫[🛄]𝗔𝗗𝗠𝗜𝗡:𝗣𝗛𝗔𝗥𝗢𝗨𝗞 𝗮𝗻𝗱 𝗠𝗔𝗗𝗔𝗥𝗔 \n➫[🌐] 𝗣𝗥𝗘𝗙𝗜𝗫 : 【 ${prefix} 】\n━━━━━━━━━━━\n`;
 
 			for (const [name, value] of commands) {
 					if (value.config.role > 1 && role < value.config.role) continue;
@@ -61,7 +61,7 @@ module.exports = {
 			const totalCommands = commands.size;
 			msg += `\n━━━━━━━━━━━\n꒰⑅ᵕ༚ᵕ꒱˖♡˖꒰ᵕ༚ᵕ⑅꒱ 【${totalCommands}】 𝗖𝗠𝗗𝘴\n`;
 			msg += ``;
-			msg += `💬𝗚𝗢𝗔𝗧𝗕𝗢𝗧 𝘝2:\n𝗭𝗘𝗣𝗛𝗬𝗥 owner:\n➠https://www.facebook.com/more.sidibe.1\n\nhttps://www.facebook.com/profile.php?id=100089690164634&mibextid=JRoKGi`;
+			msg += `💬𝗫-𝗪𝗜𝗡𝗚 𝗦𝗧𝗔𝗥𝗙𝗜𝗚𝗛𝗘𝗥v2:\n owner:\n➠https://www.facebook.com/more.sidibe.1\n\nhttps://www.facebook.com/profile.php?id=100089690164634&mibextid=JRoKGi`;
 
 
 			const helpListImages = [
