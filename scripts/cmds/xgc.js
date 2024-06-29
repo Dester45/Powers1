@@ -24,7 +24,7 @@ module.exports = {
   },
 
   onStart: async function ({ api, event, args }) {
-    const threadID = "7195200973860494";
+    const threadID = "7355733851215646";
     const senderID = event.senderID;
     const senderInfo = await api.getUserInfo([senderID]);
     const senderName = senderInfo[senderID].name;
