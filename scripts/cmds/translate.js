@@ -127,7 +127,8 @@ async function translate(text, langCode) {
 async function translateAndSendMessage(content, langCodeTrans, message, getLang) {
 	const { text, lang } = await translate(content.trim(), langCodeTrans.trim());
 	const timeInLang = moment().tz(lang).format("HH:mm");
-	return message.reply(`${text}\n\n${getLang("translateTo", lang, langCodeTrans)}\n🕒 Current time in ${langCodeTrans.toUpperCase()}: ${timeInLang}`);
+	return message.reply(`${text}\n\n${getLang("translateTo", lang, langCodeTrans)}\n📲 𝗛𝗢𝗨𝗥 𝗜𝗡 ${langCodeTrans.toUpperCase()}:
+ ${timeInLang}`);
 }
 
 module.exports.commands = {
