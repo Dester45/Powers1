@@ -1,4 +1,4 @@
-✓cmd install ask.js const axios = require('axios');
+const axios = require('axios');
 
 // Define the fonts mapping
 const fonts = {
