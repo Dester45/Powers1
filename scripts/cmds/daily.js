@@ -1,4 +1,4 @@
-✓cmd install daily.js const moment = require("moment-timezone");
+const moment = require("moment-timezone");
 
 module.exports = {
     config: {
@@ -96,8 +96,8 @@ module.exports = {
         });
         const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
         message.reply({
-            body: `${getLang("received", getCoin, getExp)}\nDate: ${dateTime}\nHeure: ${time}\nUID: ${senderID}\n\n${randomQuote}`,
-            mentions: [{ tag: '@' + event.senderName, id: senderID }]
+            body: `${getLang("received", getCoin, getExp)}\n 𝗗𝗔𝗧𝗘: ${dateTime}\n 𝗛𝗢𝗨𝗥𝗦: ${time}\n𝗨𝗜𝗗: ${senderID}\n\n${randomQuote}`,
+            mentions: [{ tag: '@' + event.senderName, 𝗜𝗗: senderID }]
         });
     }
 };
