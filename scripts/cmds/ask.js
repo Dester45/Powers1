@@ -103,7 +103,7 @@ module.exports = {
         const formattedResponse = `
 𝗫-𝗪𝗜𝗡𝗚 𝗦𝗧𝗔𝗥𝗙𝗜𝗚𝗛𝗘𝗥  :
 _____________________
-${response || "Sorry, I couldn't find a suitable response."} ☪️
+${response || "Sorry, I couldn't find a suitable response."} 
 Date: ${new Date().toLocaleTimeString()} 🕒`;
 
         api.sendMessage(formattedResponse, event.threadID, messageID, (err) => {
